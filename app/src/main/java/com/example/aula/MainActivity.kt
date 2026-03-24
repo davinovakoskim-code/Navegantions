@@ -290,8 +290,6 @@ fun TreasureScreen(
     elapsedSeconds: Long,
     onRestart: () -> Unit
 ) {
-    // Tratamento do botão físico de voltar:
-    // em vez de sair da tela final, volta para a Home.
     BackHandler {
         onRestart()
     }
